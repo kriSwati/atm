@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>debit card</title>
+	
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: sans-serif;
+		}
+		.main{
+			width: 100vw;
+			height: 100vh;
+			display: grid;
+			place-items: center;
+			background-color: hsl(0, 100%, 95%);
+		}
+		.card{
+			width: 380px;
+			height: 240px;
+			border-radius: 16px;
+			background: linear-gradient(to right top,#b62207,#500c0c);
+			position: relative;
+			padding: 15px;
+			box-shadow: 
+			0 2.8px 2.2px rgba(233, 138, 61, 0.815),
+			
+		}
+		.top{
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			color: #fff;
+		}
+		 .top h2{
+				font-size: 20px;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+		}
+		.top img{
+			width: 160px;
+			height: 30px;
+		}
+		.text{
+			letter-spacing: 1px;
+			font-size: 12px;
+			color: rgba(250, 235, 215, 0.808);
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+		}
+	
+		.center{
+			margin-top: 35px;
+			margin-left: 20px;
+		}
+		.center img{
+			width: 60px;
+			height: 40px;
+			}
+		.center h3{
+			font-size: 20px;
+			color: #fff;
+			letter-spacing: 2px;
+			margin-bottom: 10px;
+		}
+		.valid{
+			font-size: 8px;
+			letter-spacing: 1px;
+			color: rgba(247, 247, 224, 0.774);
+			text-transform: uppercase;
+			margin-left: 120px;
+		}
+		.bottom {
+			justify-content: space-between;
+			color: #fff;
+			display: flex;
+			margin-top: 10px;
+		}
+		.bottom h2{
+			font-size: 15px;
+			font-weight: 200;
+			color: #dfe6e9;
+			letter-spacing: 1px;
+		}
+		.bottom img{
+			height: 30px;
+			width: 65px;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="card">
+			<div class="top">
+				<h2>platinum</h2>
+				<img src="..\images\unbbk.png">
+			</div>
+			<div class="text">
+				<h5>International Card </h5>
+				<h6>Good people to bank with</h6>
+			</div>
+
+			<div class="center">
+				<img src="..\images\chip4.png">
+				<h3>6544 - 3243 - 0000 - 1122</h3>
+				<h5 class="valid"><span>valid<br>thru</span>
+					<span>12/24</span></h5>
+			</div>
+
+			<div class="bottom">
+				<h2>SWATI KUMARI</h2>
+				<img src="..\images\rupay1.png">
+			</div>
+		</div>	
+	</div>
+</body>
+</html>
